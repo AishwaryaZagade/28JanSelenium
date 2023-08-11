@@ -14,7 +14,7 @@ public class example5_isEnabled2
 	
 	boolean result = driver.findElement(By.xpath("//button[@class='_acan _acap _acas _aj1-']")).isEnabled();
 	
-	System.out.println("result");
+	System.out.println(result);
 	
 	if(result)
 	{
